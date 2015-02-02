@@ -1,16 +1,16 @@
 ---
 title: hogefoobar.github.io
-layout: defalut
+layout: post
 ---
 
 # hogefoobar.github.io
-Here is my page.
+This is blog.
+
 
 <ul>
 	{% for post in site.posts %}
 	<li>
 		<a href="{{ post.url }}">{{ post.title }}</a>
-		{{ post.excerpt }}
 	</li>
 	{% endfor %}
 </ul>
